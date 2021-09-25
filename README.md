@@ -8,10 +8,10 @@
 * Images – jpg, png and gif;
 * 3D Models – glTF 2.0 (embedded ou binary): .gtlf, .glb.
 
-### How People Are Using the WebAR
+## How People Are Using the WebAR
 The WebAR can be used to add augmented reality to business cards, invitations, flyers, handouts, curriculum, real estate books and more.
 
-#### Do It Yourself
+## Do It Yourself
 **What will you need?**
 
 Go to the URL (app URL) and point your smartphone camera over the marker to see augmented reality.
