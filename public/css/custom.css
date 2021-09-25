@@ -1,0 +1,183 @@
+a.holograma, a.holograma:hover {
+ color: #636e72;
+}
+
+a.holograma:hover {
+ text-decoration: underline;
+}
+
+.entity {
+ padding: 5px 10px;
+ background-color:#f8f9fc;
+ border-radius: 3px;
+ box-shadow: 2px 2px 1px #dcdde1;
+}
+
+#scene {
+ height: 450px;
+}
+
+.ar-body {
+ margin: 0px; 
+ overflow: hidden;
+}
+
+#themecolor {
+ float:left;
+ width:100px;
+}
+
+#themecolor2 {
+ float:left;
+ margin-left: 10px;
+ width:50px;
+}
+
+.title-column {
+ min-width: 150px;
+}
+
+.action-column {
+ width: 100px;
+ min-width:100px;
+}
+
+.w100p {
+ width: 100%;
+}
+
+.w40 {
+ width: 40px;
+}
+
+.pdf-w714 {
+ width: 714px;
+}
+
+.pdf-w170 {
+ width: 170px;
+}
+
+.pdf-w230 {
+ width: 230px;
+}
+
+.pdf-w270 {
+ width: 270px;
+}
+
+.pdf-w350 {
+ width: 350px;
+}
+
+.pdf-w400 {
+ width: 400px;
+}
+
+.pdf-td {
+ text-align: center;
+ background: #f0f0f0;
+}
+
+#btnChangeView {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    border-radius: 0;
+}
+
+/**
+ * [AR CUSTOMIZATION]
+ */
+
+
+
+ /* ======== SCENE - LOADING AND BUTTON PLAY/PAUSE ========== */
+
+
+ 
+ .ar-body {
+    margin: 0px;
+    overflow: hidden;
+}
+
+.arjs-loader {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arjs-loader div {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    color: white;
+}
+
+.arjs-loader img {
+    width: 40%;
+}
+
+.btn-playpause-container {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-playpause {
+    width: 90px;
+    height: 90px;
+    font-size: 1.5em;
+    color: white;
+    border: 4px solid white;
+    border-radius: 45px 45px;
+}
+
+
+
+/* ===================== EXTENSIONS ====================== */
+
+#contactBar {
+    position: fixed; 
+    top: 0; 
+    right: 0; 
+    z-index: 10000;
+    width: 3.5em;
+}
+#contactBar div {
+    background: rgba(0,0,0,0.4);
+    line-height: 0;
+    border: none;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+#contactBar a {
+    font-size: 3em;
+}
+#contactBar .phone, 
+#contactBar .whatsapp, 
+#contactBar .telegram, 
+#contactBar .messenger, 
+#contactBar .facebook, 
+#contactBar .instagram, 
+#contactBar .twitter, 
+#contactBar .github, 
+#contactBar .linkedin, 
+#contactBar .site, 
+#contactBar .email {
+    color: #CECECE;
+}

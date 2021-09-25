@@ -1,0 +1,133 @@
+/**
+ * [CARD 3D CUSTOMIZATION]
+ * Main color: #4a266a
+ */
+
+/* Main color */
+.card3d-color { 
+    color: #4a266a !important; 
+}
+
+
+.card3d-bg {
+    background: #4a266a; 
+}
+
+
+/* Custom Btn */
+.card3d-btn, .card3d-btn:hover, .card3d-btn:focus {
+    color: #fff; 
+    background-color: #4a266a; 
+    border-color: #4a266a; 
+    box-shadow: none;
+}
+.card3d-btn-outline {
+    color:#4a266a;
+    border-color:#4a266a;
+}
+.card3d-btn-outline:hover, .card3d-btn-outline:focus {
+    color:#fff;
+    background-color: #4a266a;
+    border-color:#4a266a;
+}
+/**
+ * END - [CARD 3D CUSTOMIZATION]
+ */
+
+/**
+ * [AR CUSTOMIZATION]
+ */
+
+
+
+ /* ======== SCENE - LOADING AND BUTTON PLAY/PAUSE ========== */
+
+
+ 
+.ar-body {
+    margin: 0px;
+    overflow: hidden;
+}
+
+.arjs-loader {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arjs-loader div {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    color: white;
+}
+
+.arjs-loader img {
+    width: 40%;
+}
+
+.btn-playpause-container {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-playpause {
+    width: 90px;
+    height: 90px;
+    font-size: 1.5em;
+    color: white;
+    border: 4px solid white;
+    border-radius: 45px 45px;
+}
+
+
+
+/* ===================== EXTENSIONS ====================== */
+
+
+
+#contactBar {
+    position: fixed; 
+    top: 0; 
+    right: 0; 
+    z-index: 10000;
+    width: 3.5em;
+}
+#contactBar div {
+    background: rgba(0,0,0,0.4);
+    line-height: 0;
+    border: none;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+#contactBar a {
+    font-size: 3em;
+}
+#contactBar .phone, 
+#contactBar .whatsapp, 
+#contactBar .telegram, 
+#contactBar .messenger, 
+#contactBar .facebook, 
+#contactBar .instagram, 
+#contactBar .twitter, 
+#contactBar .github, 
+#contactBar .linkedin, 
+#contactBar .youtube,
+#contactBar .site, 
+#contactBar .email {
+    color: #CECECE;
+}

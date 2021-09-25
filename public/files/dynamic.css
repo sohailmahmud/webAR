@@ -1,0 +1,16 @@
+                .dashboard_bg { 
+                    background: url("http://holograma22.localhost/files/logo-holograma.png") center center no-repeat; 
+                    background-size: 50%;
+                }
+                .holograma-btn, .holograma-btn:hover, .holograma-btn:focus {
+                    color: #fff!important; 
+                    background-color: #4e73df!important; 
+                    border-color: #4e73df!important; 
+                    box-shadow: none!important;
+                }
+                .holograma-color { 
+                    color: #4e73df!important; 
+                }
+                .holograma-backgroundcolor { 
+                    background: #4e73df!important; 
+                }
